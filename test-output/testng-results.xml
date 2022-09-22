@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T12:31:25 EEST" name="Default suite" finished-at="2022-09-19T12:32:11 EEST" duration-ms="45956">
+    <groups>
+    </groups>
+    <test started-at="2022-09-19T12:31:25 EEST" name="Default test" finished-at="2022-09-19T12:32:11 EEST" duration-ms="45956">
+      <class name="tests.SmokeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@6cd28fa7]" started-at="2022-09-19T12:31:25 EEST" name="setUp" finished-at="2022-09-19T12:31:33 EEST" duration-ms="8132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="smokeForBlog()[pri:0, instance:tests.SmokeTest@6cd28fa7]" started-at="2022-09-19T12:31:33 EEST" name="smokeForBlog" finished-at="2022-09-19T12:32:10 EEST" duration-ms="37513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeForBlog -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.SmokeTest@6cd28fa7]" started-at="2022-09-19T12:32:10 EEST" name="recordFailure" finished-at="2022-09-19T12:32:10 EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeForBlog status=SUCCESS method=SmokeTest.smokeForBlog()[pri:0, instance:tests.SmokeTest@6cd28fa7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SmokeTest@6cd28fa7]" started-at="2022-09-19T12:32:10 EEST" name="tearDown" finished-at="2022-09-19T12:32:11 EEST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
